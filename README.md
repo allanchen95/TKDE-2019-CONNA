@@ -1,6 +1,6 @@
-## KDD‘19 basic implementation code
+## TKDE‘19 basic implementation code
 
-This is basic implementation of our KDD'19 paper:
+This is basic implementation of our TKDE'19 paper:
 
 ## Requirements
 - Ubuntu 16.04
