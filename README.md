@@ -16,7 +16,9 @@ Comming soon...
 
 ## Data Source
 All experimental data is available.
+
 OAG-WhoIsWho: (link: https://www.aminer.cn/whoiswho)
+
 KDD-Cup: (link:)
 
 Note: Due to the data file which should be added to run the code is too large, (e.g. embedding words file, the per-trained checkpoints file,etc) we just upload our basic code now. After we have carefully sorted out the code and data, we will upload the complete version again.
