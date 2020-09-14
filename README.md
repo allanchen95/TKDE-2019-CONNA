@@ -1,6 +1,6 @@
-## TKDE‘19 basic implementation code
+## TKDE‘20 basic implementation code
 
-This is basic implementation of our TKDE'19 paper:
+This is basic implementation of our TKDE'20 paper:
 
 ## Requirements
 - Ubuntu 16.04
