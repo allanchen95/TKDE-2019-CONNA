@@ -1,6 +1,6 @@
 ## TKDE‘20 basic implementation code
 
-This is basic implementation of our TKDE'20 paper:
+This is basic implementation of our TKDE'20 paper: CONNA: Addressing Name Disambiguation on The Fly
 
 ## Requirements
 - Ubuntu 16.04
