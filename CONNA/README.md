@@ -4,6 +4,8 @@ This is tensorflow implementations of CONNA in the algorithm-level.
 
 
 
+
+
 ### Requirements
 
 >- Ubuntu 16.04
@@ -13,11 +15,13 @@ This is tensorflow implementations of CONNA in the algorithm-level.
 
 
 
+
+
 ### Data Preprocessing
 
 Before running the code, you need to  preprocess the raw data as follows, take OAG-WhoIsWho for example:
 
->+ **Prepare the essential data **: Download data from the link of OAG-WhoIsWho into the folder of *OAG_WhoIsWho_data*.
+>+ **Prepare the essential data**: Download data from the link of OAG-WhoIsWho into the folder of *OAG_WhoIsWho_data*.
 >
 >
 >
@@ -30,6 +34,8 @@ Before running the code, you need to  preprocess the raw data as follows, take O
 >  
 >
 >+ **Train the Classificaion Module**: Run the *classifier_main.py* to load the ranking module from *saved_ranking_model*, and further reinforce both the two modules with their feedback. Specifically,  we first implement it with REINFORCE algorithm, and find its performance is the same as retraining the right cases, i.e., the accurately predicted cases, so for simplicity, we just retrain the right cases.
+
+
 
 
 

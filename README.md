@@ -14,9 +14,11 @@ We also apply CONNA++ to a name disambiguation competition (https://www.biendata
 
 
 
+
+
 ## Citation
 
-If you refer any techniques mentioned in CONNA or CONNA++, please cite it as follows:
+If you think CONNA or CONNA++ is helpful to you, please cite it as follows:
 
 ```
 @article{chen2020conna,
