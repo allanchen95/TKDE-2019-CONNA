@@ -49,5 +49,5 @@ OAG-WhoIsWho: (link: https://www.aminer.cn/whoiswho)
 
 KDD-Cup: (link:https://pan.baidu.com/s/10RV3Xrn12t9TRZz2yc0Gyw  passwd: w8yv)
 
-Note: The results might be slightly inconsistent with the results induced by the different hypermeters or data sampling.
+Note: The results might be slightly inconsistent induced by the different hyper-parameters or data samplings.
 
