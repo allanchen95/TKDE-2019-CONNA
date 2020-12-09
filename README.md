@@ -1,24 +1,32 @@
-## TKDE‘20 basic implementation code
+# CONNA
 
-This is basic implementation of our TKDE'20 paper: CONNA: Addressing Name Disambiguation on The Fly
-
-## Requirements
-- Ubuntu 16.04
-- Python 3.6
-- Tensorflow-gpu
-- GPU,CUDA,CUDNN
-
-Note: Running this project will consume upwards of 100GB hard disk space. The overall pipeline will take several hours. You are recommended to run this project on a Linux server.
-
-## Code & Instructions
-Comming soon...
+CONNA is a framework to carefully address the problem of continues name disambiguation, a classical paper assignment task,  in the current academic platforms, such as, Google Scholar, DBLP, and AMiner. More details please refer to: https://arxiv.org/abs/1910.12202 .
 
 
-## Data Source
-All experimental data is available.
 
-OAG-WhoIsWho: (link: https://www.aminer.cn/whoiswho)
+CONNA has been further modified accroding to the online needs, denoted as CONNA++, and deployed on [AMiner](https://www.aminer.cn/)  which acts as the core algorithm for the effective paper assignment. 
 
-KDD-Cup: (link:)
 
-Note: Due to the data file which should be added to run the code is too large, (e.g. embedding words file, the per-trained checkpoints file,etc) we just upload our basic code now. After we have carefully sorted out the code and data, we will upload the complete version again.
+
+We also apply CONNA++ to a name disambiguation competition (https://www.biendata.xyz/competition/chaindream_nd_task2/) . Now, we still maintain the 1st rank in the [leadboard](https://www.biendata.xyz/competition/chaindream_nd_task2/leaderboard/), and we will also release the code of CONNA++ at the end of the competition.
+
+ 
+
+
+
+## Citation
+
+If you refer any techniques mentioned in CONNA or CONNA++, please cite it as follows:
+
+```
+@article{chen2020conna,
+  title={CONNA: Addressing Name Disambiguation on The Fly},
+  author={Chen, Bo and Zhang, Jing and Tang, Jie and Cai, Lingfan and Wang, Zhaoyu and Zhao, Shu and Chen, Hong and Li, Cuiping},
+  journal={IEEE Transactions on Knowledge and Data Engineering},
+  year={2020},
+  publisher={IEEE}
+}
+```
+
+
+

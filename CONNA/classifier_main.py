@@ -667,7 +667,10 @@ if __name__ == '__main__':
 		print("Train sim_vec:", train_sim_vec.shape)
 		
 
-		# Retraining the right cases, i.e., the accurately predicted cases.
+		# Reinforce both the two modules by their feedback.
+		# We first implement it with REINFORCE algorithm, and find its performance is the same as 
+		# Retraining the right cases, i.e., the accurately predicted cases, so for simplicity, we just 
+		# retrain the right cases.
 		ins_num = c_s.TEST_BATCH_SIZE / (c_s.TEST_SAMPLE + 1)
 		total_matching_loss = []
 		for index in t1p1_list:

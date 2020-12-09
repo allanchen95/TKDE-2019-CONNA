@@ -39,25 +39,10 @@ def generate_test_data(train_data_file, test_data_file, data_size, sample_num, b
     global pub_feature_dict
     global author_num
     global word_num
-    global name_uniq_dict
-    global ven_tfidf
-    global org_tfidf
-    global title_tfidf
-    global pubs_dict
     # global index_list
     neg_sample = sample_num
 
-    idf_dir = "./supply/"
 
-    with open(idf_dir + 'name_uniq_dict.json', "r") as file:
-        name_uniq_dict = json.load(file)
-
-    with open(idf_dir + 'venue_idf.json', "r") as file:
-        ven_tfidf = json.load(file)
-    with open(idf_dir + 'new_org_idf.json', "r") as file:
-        org_tfidf = json.load(file)
-    with open(idf_dir + 'title_idf.json', "r") as file:
-        title_tfidf = json.load(file)
   
     pub_feature_dict = data_utils.load_data(settings.EMB_DATA_DIR, "pub_feature.ids")
     print("Loaded pub features")

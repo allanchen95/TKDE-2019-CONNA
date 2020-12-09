@@ -47,7 +47,7 @@ def dump_pub_features_to_file():
     global _pubs_dict
 
     # Load publication features
-    _pubs_dict = data_utils.load_json('data_dir', 'pub_files')
+    _pubs_dict = data_utils.load_json('./OAG_WhoIsWho_data', 'your_pub_file_name')
     res = multithread_utils.processed_by_multi_thread(get_pub_feature, range(len(_pubs_dict)))
     data_utils.dump_data(res, "Essential_Embeddings/", "pub.features")
     # _pubs_dict = data_utils.load_json(settings.GLOBAL_DATA_DIR, 'pubs_raw.json')
