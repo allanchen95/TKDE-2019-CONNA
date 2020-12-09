@@ -1,4 +1,4 @@
-# CONNA
+# CONNA: Addressing Name Disambiguation on the Fly
 
 CONNA is a framework to carefully address the problem of continues name disambiguation, a classical paper assignment task,  in the current academic platforms, such as, Google Scholar, DBLP, and AMiner. More details please refer to: https://arxiv.org/abs/1910.12202 .
 
