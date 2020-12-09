@@ -27,11 +27,16 @@ Before running the code, you need to  preprocess the raw data as follows, take O
 >
 >+ **Generate word embedding**:  Run the *preprocessing.py* in the folder of *generate word2vec* step by step to obtain the word embeddings in each paper (Notbly, we have already sampled some training and testing paper data from OAG-WhoIsWho and save it in the folder of *OAG_WhoIsWho_data*, so you must download the data files that contained the paper information of our sampled data from OAG-WhoIsWho.);
 >
->  
->
+
+
+
+
+
+## Running
+
 >+ **Train the Ranking Module**: Run the *ranking_main.py* to train the ranking module of CONNA and save the checkpoints in the folder of *saved_ranking_model* ; 
 >
->  
+> 
 >
 >+ **Train the Classificaion Module**: Run the *classifier_main.py* to load the ranking module from *saved_ranking_model*, and further reinforce both the two modules with their feedback. Specifically,  we first implement it with REINFORCE algorithm, and find its performance is the same as retraining the right cases, i.e., the accurately predicted cases, so for simplicity, we just retrain the right cases.
 
