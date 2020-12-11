@@ -25,7 +25,7 @@ Before running the code, you need to  preprocess the raw data as follows, take O
 >
 >
 >
->+ **Generate word embedding**:  Run the *preprocessing.py* in the folder of *generate word2vec* step by step to obtain the word embeddings in each paper (Notbly, we have already sampled some training and testing paper data from OAG-WhoIsWho and save it in the folder of *OAG_WhoIsWho_data*, so you must download the data files that contained the paper information of our sampled data from OAG-WhoIsWho.);
+>+ **Generate word embedding**:  Run the *preprocessing.py* in the folder of *generate word2vec* step by step to obtain the word embeddings in each paper (Notbly, we have already sampled some training and testing paper data from OAG-WhoIsWho, more specifically, the version of na-v1,  and save it in the folder of *OAG_WhoIsWho_data*, so you must download the data files, from na-v1, that contained the paper information of our sampled data from OAG-WhoIsWho.);
 >
 
 
