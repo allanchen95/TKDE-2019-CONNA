@@ -10,7 +10,7 @@ EMB_DATA_DIR = 'Essential_Embeddings/emb/'
 # GLOBAL_DATA_DIR = join(DATA_DIR, 'global')
 GLOBAL_DATA_DIR = 'Essential_Embeddings/global/'
 
-NEW_DATA_DIR = 'OAG_WhoIsWho_data/'
+NEW_DATA_DIR = 'WhoIsWho_data/'
 # os.makedirs(OUT_DIR, exist_ok=True)
 # os.makedirs(EMB_DATA_DIR, exist_ok=True)
 
