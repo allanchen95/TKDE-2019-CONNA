@@ -29,7 +29,7 @@ Before running the code, you need to  preprocess the raw data as follows, take *
 >
 >   + *train/test_author_pub_index_test.json* serves as **the ground truth of the papers that need to be assigned to the author profiles**.
 >
->    (Note: the paper-id are composed of original paper-id and the index of name to be disambiguated, like the paper id "3UDRYR4J-2", "3UDRYR4J" is the original paper id which can be found in the conna_pub_dict, and "2" means the 3rd author need to be disambiguated. More data construction details can be found in the page of *WhoIsWho*.) 
+>    (Note: the paper-id is composed of original paper-id and the index of name to be disambiguated, like the paper id "3UDRYR4J-2", "3UDRYR4J" is the original paper id which can be found in the conna_pub_dict, and "2" means the 3rd author need to be disambiguated. More data construction details can be found in the page of *WhoIsWho*.) 
 >
 >
 >
