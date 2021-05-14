@@ -4,6 +4,10 @@ This is tensorflow implementations of CONNA in the algorithm-level.
 
 
 
+**Note**: For more and cleaner name disambiguation data, we highly recommend *WhoIsWho*, **the world largest manually-labeled name disambiguation benchmark**, which contains more than **900,000** papers and can be easily accessed in its dataset page, 
+
+*WhoIsWho*: (link: https://www.aminer.cn/whoiswho)
+
 
 
 ### Requirements
@@ -15,20 +19,25 @@ This is tensorflow implementations of CONNA in the algorithm-level.
 
 
 
-
-
 ### Data Preprocessing
 
-Before running the code, you need to  preprocess the raw data as follows, take OAG-WhoIsWho for example:
+Before running the code, you need to  preprocess the raw data as follows, take *WhoIsWho* for example:
 
->+ **Prepare the essential data**: Download data from the link of OAG-WhoIsWho into the folder of *OAG_WhoIsWho_data*.
+>+ **Prepare the essential data**: Download data from the link of *WhoIsWho* into the folder of *WhoIsWho_data*, (Notably, we have already sampled some training and testing paper data from *WhoIsWho*, more specifically, the version of na-v1, and save it in the folder of *WhoIsWho_data*.) 
+>
+>  + *train/test_author_pub_index_profile.json*, Serves as the **existing author profiles**, which is organized as a three-level dictionary, i.e., name --- author_id --- papers,
+>
+>  + *train/test_author_pub_index_test.json* serves as **the ground truth of the papers that need to be assigned to the author profiles**.
+>
+>    (Note: the paper-id are composed of original paper-id and the index of name to be disambiguated, like the paper id "3UDRYR4J-2", "3UDRYR4J" is the original paper id which can be found in the conna_pub_dict, and "2" means the 3rd author need to be disambiguated. More data construction details can be found in the page of *WhoIsWho*.) 
 >
 >
 >
->+ **Generate word embedding**:  Run the *preprocessing.py* in the folder of *generate word2vec* step by step to obtain the word embeddings in each paper (Notbly, we have already sampled some training and testing paper data from OAG-WhoIsWho, more specifically, the version of na-v1,  and save it in the folder of *OAG_WhoIsWho_data*, so you must download the data files, from na-v1, that contained the paper information of our sampled data from OAG-WhoIsWho.);
+>+ **Generate word embedding**:  Download the essential paper attribute file [conna_pub_dict.json](https://lfs.aminer.cn/misc/ND-data/conna_pub_dict.json), then run the *preprocessing.py* in the folder of *generate word2vec* step by step to obtain the word embeddings in each paper. You will get following files after this step,
+>  + *pub_feature.ids*: Key-value dict., where the key is paper id, value is corresponding paper attribute token id,
+>  + *author_emb.array*: Contains author embeddings with corresponding author token id,
+>  + *word_emb.array*: Contains word embeddings with corresponding word token id.
 >
-
-
 
 
 
@@ -42,17 +51,15 @@ Before running the code, you need to  preprocess the raw data as follows, take O
 
 
 
-
+Note: The results might be slightly inconsistent induced by the different hyper-parameters or data samplings.
 
 
 
 ## Data Source
 
-All experimental data is available.
-
-OAG-WhoIsWho: (link: https://www.aminer.cn/whoiswho)
-
 KDD-Cup: (link:https://pan.baidu.com/s/10RV3Xrn12t9TRZz2yc0Gyw  passwd: w8yv)
 
-Note: The results might be slightly inconsistent induced by the different hyper-parameters or data samplings.
+
+
+
 
