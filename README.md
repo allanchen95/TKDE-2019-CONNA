@@ -10,9 +10,13 @@ CONNA has been further modified accroding to the online needs, denoted as CONNA+
 
 We also apply CONNA++ to a name disambiguation competition (https://www.biendata.xyz/competition/chaindream_nd_task2/) . Now, we still maintain the 1st rank in the [leadboard](https://www.biendata.xyz/competition/chaindream_nd_task2/leaderboard/), and we will also release the code of CONNA++ at the end of the competition.
 
+
+
  
 
-**Note**: For more and cleaner name disambiguation data, we highly recommend *WhoIsWho*, **the world largest manually-labeled name disambiguation benchmark**, which contains nearly **1,000,000** papers annotated by crowdsourcing, and can be easily accessed in its dataset page, 
+###Name Disambiguation Data 
+
+For more and cleaner name disambiguation data, we highly recommend *WhoIsWho*, **the world largest manually-labeled name disambiguation benchmark**, which contains nearly **1,000,000** papers annotated by crowdsourcing, and can be easily accessed in its dataset page, 
 
 *WhoIsWho*: (link: https://www.aminer.cn/whoiswho)
 
