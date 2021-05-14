@@ -14,7 +14,7 @@ We also apply CONNA++ to a name disambiguation competition (https://www.biendata
 
  
 
-###Name Disambiguation Data 
+### Name Disambiguation Data 
 
 For more and cleaner name disambiguation data, we highly recommend *WhoIsWho*, **the world largest manually-labeled name disambiguation benchmark**, which contains nearly **1,000,000** papers annotated by crowdsourcing, and can be easily accessed in its dataset page, 
 
