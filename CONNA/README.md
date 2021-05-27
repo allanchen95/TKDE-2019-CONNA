@@ -37,7 +37,6 @@ Before running the code, you need to  preprocess the raw data as follows, take *
 >     + *pub_feature.ids*: Key-value dict., where the key is paper id, value is corresponding paper attribute token id,
 >     + *author_emb.array*: Contains author embeddings with corresponding author token id,
 >     + *word_emb.array*: Contains word embeddings with corresponding word token id.
->
 
 
 
@@ -52,6 +51,14 @@ Before running the code, you need to  preprocess the raw data as follows, take *
 
 
 Note: The results might be slightly inconsistent induced by the different hyper-parameters or data samplings.
+
+
+
+### Checkpoints
+
+**Trained Ranking Model**: 链接:https://pan.baidu.com/s/1_QBpTX41_6xOX-AOQ881Ag  密码:1dg1
+
+**Trained Classification Model**:
 
 
 
