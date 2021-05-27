@@ -1,4 +1,4 @@
-from global_model_profile import *
+from ranking_main import *
 import classifier_data_profile as p_d
 import classifier_settings as c_s
 from sklearn.model_selection import train_test_split
