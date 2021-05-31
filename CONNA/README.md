@@ -56,9 +56,10 @@ Note: The results might be slightly inconsistent induced by the different hyper-
 
 ### Checkpoints
 
-**Trained Ranking Model**: 链接:https://pan.baidu.com/s/1_QBpTX41_6xOX-AOQ881Ag  密码:1dg1
+You may omit training process by downloading corresponding model checkpoints.
 
-**Trained Classification Model**:
++ **Ranking Model**: Download the ranking model checkpoints into *saved_ranking_model*, then you can validate the ranking performance (Link: https://pan.baidu.com/s/1_QBpTX41_6xOX-AOQ881Ag   passwd: 1dg1) , based on which you can further train the classification model.
++ **Classification Model**:
 
 
 
